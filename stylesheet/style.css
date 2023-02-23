@@ -19,6 +19,20 @@ p {
 
 }
 
+.section_title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.section_title::after {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 0 16px;
+  width: 100px;
+  border-bottom: solid 1px #000000;
+}
+
 
 
 /* ----------------------------------------------- ナビゲーションバー */
@@ -100,9 +114,15 @@ p {
 }
 
 
-/* ----------------------------------------------- アバウト */
+/*  アバウト */
 
+.about::after {
+  content: "私たちについて";
+}
 
+.about_us_bg {
+  background-color: #FFE6A5;
+}
 
 
 
